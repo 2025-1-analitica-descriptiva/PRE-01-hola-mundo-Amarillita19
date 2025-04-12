@@ -5,17 +5,18 @@ Escriba el codigo que ejecute la accion solicitada en cada pregunta.
 # pylint: disable=import-outside-toplevel
 
 
-def pregunta_02():
+def pregunta_01():
     """
-    Retorne el string "Hello cruel world!".
+    Retorne el string "Hola mundo cruel!".
 
     Rta/
-    Hello cruel world!
+    Hola mundo cruel!
 
     """
 
-    return
+    return "Hola mundo cruel!"
+
 
 
 if __name__ == "__main__":
-    print(pregunta_02())
+    print(pregunta_01())
